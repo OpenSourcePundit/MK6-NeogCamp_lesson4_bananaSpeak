@@ -1,0 +1,1 @@
+console.log("Hey, script is working from another file, app.js")
