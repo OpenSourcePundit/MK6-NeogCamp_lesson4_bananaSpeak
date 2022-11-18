@@ -1,11 +1,13 @@
 var btnTranslate = document.querySelector("#btn-translate");
-var x=1;
-
-btnTranslate.addEventListener("click",clickHandler())
+var x=0;
+var txtinput = document.querySelector("#txtinput");
+/*console.log("hey thats it"+text1);//We can also read this value by inspect and the store it as global variable(textarea), the use "variable.value"*/
+btnTranslate.addEventListener("click",clickHandler());
 
 
 function clickHandler() {
         x++;
         console.log("clicked " + x + " times from external function");
+        console.log(" hey thats it ",txtinput.value);
     };
-//Callback function  basically addEventListner is a callback function. we can make additional function and extract it out as well
+
