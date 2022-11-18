@@ -1,16 +1,9 @@
 var btnTranslate = document.querySelector("#btn-translate");
 var x=1;
 
-btnTranslate.addEventListener("click",function clickEventHandler(){
-    x++;
-    console.log("clicked "+x+" times")
-})
-
-/*
-checking QUERYSELECTOR
- in browser console -- wrote  
- document                                            this gives the complete document also can write :
- document.body                                       this gives complete body attributes
- document.body.style.backgroundColor="green"         to ged background green
- */
-
+btnTranslate.addEventListener("click",() => {
+        x++;
+        console.log("clicked " + x + " times");
+    })
+//here right now its converted to arrow function
+//Callback function  basically addEventListner is a callback function. we can make additional function and extract it out as well
