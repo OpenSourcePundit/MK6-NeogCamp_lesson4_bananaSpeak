@@ -40,6 +40,7 @@ button{
     background-color: yellow;
     font-size: medium;
     font-family: 'Patrick Hand', cursive;
+    cursor:pointer;
 }
 #output,#txtinput{
     font-family: 'Patrick Hand', cursive;
